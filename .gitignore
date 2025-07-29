@@ -1,0 +1,5 @@
+# Notebooks and checkpoints 
+# (keep only Jupytext paired .py notebooks)
+.ipynb_checkpoints
+.ipynb
+
