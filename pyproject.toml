@@ -8,6 +8,5 @@ dependencies = [
     "ipykernel>=6.30.0",
     "jupyterlab>=4.4.5",
     "jupyterlab-rise>=0.43.1",
-    "jupytext>=1.17.2",
     "numpy>=2.3.2",
 ]
