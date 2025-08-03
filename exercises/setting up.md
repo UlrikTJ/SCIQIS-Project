@@ -33,6 +33,25 @@ It's simpler on Linux/macOS: just do `curl -LsSf https://astral.sh/uv/install.sh
 
 git is the default version control system these days. Chances are you've already got it installed. If not, find it [here](https://git-scm.com/downloads). 
 
+After installation, you'll want to do [basic configuration of git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup), at least setting up your name and email address to attach to commits:
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+### Github authentication
+
+This also only needs to be done if you're not already authenticated to connect to Github from the command-line. 
+
+Set up authentication using [one of these methods](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line): personal access token, optionally handled by [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager), for HTTPS remote URLs or SSH key pairs for SSH remote URLs.
+
+
+## About Windows
+
+The command-line instructions I give are targeted Linux and should also work on macOS. Unfortunately, I am not very familiar with Windows, so sometimes the commands might work, sometimes not. I hope you can help each other figure out what to replace them with in case they don't.
+
+An alternative to using the Windows Command Prompt or PowerShell might be to use [Git Bash](https://gitforwindows.org) 
 
 ## Say hi
 
@@ -45,16 +64,21 @@ Feel free to [change your nickname](https://support.discord.com/hc/en-us/article
 Most of the course material (including this file) is made available on the course's Github repository at https://github.com/neago/sciqis. It will be continually updated during the course, and the simplest way to make sure you always have the latest files is to clone the repo to your local machine,
 
 ```
-git clone git@github.com:neago/sciqis.git
+$ git clone git@github.com:neago/sciqis.git
 ```
 
 and keep it updated by pulling/syncing regularly:
 
 ```
-git pull
+$ git pull
 ```
 
 You may wish to work directly in the provided .ipynb notebooks. However, if you do that directly in your cloned repository, you will encounter merge conflicts next time you attempt a pull. The easiest way to avoid that is to create a copy of the notebooks for editing, either in the same repository or in a separate folder. 
 
 > [!TIP] 
 > If you wish to keep your own edits under version control, you could instead fork the repository and keep it synced to the upstream repo (i.e. `github.com/neago/sciqis`). See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) and [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
+
+
+## Create virtual environment
+
+It is a very good idea to keep separate environments for separate projects. 
