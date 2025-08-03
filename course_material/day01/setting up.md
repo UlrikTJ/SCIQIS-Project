@@ -82,3 +82,12 @@ You may wish to work directly in the provided .ipynb notebooks. However, if you 
 ## Create virtual environment
 
 It is a very good idea to keep separate environments for separate projects. 
+
+copy `pyproject.toml` to new folder
+
+do `uv sync`
+
+do `uv run python -m ipykernel install --user --name "sciqis" --display-name "Python (sciqis)"`
+
+test: `uv run jupyter lab`
+
