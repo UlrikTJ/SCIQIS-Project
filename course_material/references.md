@@ -47,6 +47,13 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 * [Mamba User Guide — documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 
 
+## Visualisation
+
+### matplotlib
+
+* Book/tutorial: [Scientific Visualization: Python + Matplotlib (Nicolas Rougier)](https://inria.hal.science/hal-03427242/document) - excellent resource, including general advice on graphic design
+
+
 ## Python packaging
 
 Tutorial: [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
