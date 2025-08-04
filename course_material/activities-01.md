@@ -31,6 +31,6 @@
 
 5. Try to create conflicting edits in different branches or locally and remote. See what happens when you try to checkout or pull the conflicting branch/remote. How do you solve the conflict?
 
-6. If you're done or all of this is too easy, try looking into some of the more esoteric functions of git. 
+6. If you're done or all of this is too easy, try looking into some of the more esoteric functions of git, for example by looking [here](https://ndpsoftware.com/git-cheatsheet.html) (should be safe although there's a certificate problem).
 
 7. Alternatively, learn about how to use [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) or [issue tracking](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) (which can also be used for keeping track of todos and bugs on personal projects). 
