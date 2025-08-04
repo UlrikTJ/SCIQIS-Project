@@ -1,13 +1,47 @@
 # References
 
+## Scientific computing
+
+Full course: [Aalto University: Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/)
+
+Advice: [Ten tips for conducting reproducible interactive computing experiments](https://ipython-books.github.io/26-ten-tips-for-conducting-reproducible-interactive-computing-experiments/)
+
+Advice: [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) (with biology bias)
 
 ## git and Github
 
-Tutorial: 
+Reference: [Git Cheatsheet (interactive)](https://ndpsoftware.com/git-cheatsheet.html)
+
+Reference: [Basic Git Cheatsheet (PDF)](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+
+Tutorial: [At typical workflow with git branching](https://ipython-books.github.io/24-a-typical-workflow-with-git-branching/)
 
 Tool: [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager)
 
 
+## Python environments
+
+### uv
+
+Docs: [uv official documentation](https://docs.astral.sh/uv/)
+
+Tutorial: [Getting Started With uv, the Python Package & Project Manager](https://osc.garden/notes/uv/#syncing-the-environment)
+
+Tutorial: [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
+
+Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd37f24b441b128b4)
+
+
+### conda
+
+* [conda.org](https://conda.org/community)
+	* [Getting started with conda — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+	* [Managing environments — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+	* [Cheatsheet — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html).
+* [conda-forge | community-driven packaging for conda](https://conda-forge.org)
+* [Mamba User Guide — documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
+
 
 ## Python packaging
 
+Tutorial: [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)

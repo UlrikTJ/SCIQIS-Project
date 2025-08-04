@@ -9,6 +9,7 @@ dependencies = [
     "ipython>=9.4.0",
     "jupyterlab>=4.4.5",
     "jupyterlab-git>=0.51.2",
+    "line-profiler>=5.0.0",
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
     "pandas>=2.3.1",

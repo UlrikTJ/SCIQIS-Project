@@ -81,13 +81,14 @@ You may wish to work directly in the provided .ipynb notebooks. However, if you 
 
 ## Create virtual environment
 
-It is a very good idea to keep separate environments for separate projects. 
+It is a very good idea to keep separate environments for separate projects. Virtual environments keep projects isolated, minimal and reproducible.
 
-copy `pyproject.toml` to new folder
+ In this course, we will use the rather new [uv package manager](https://docs.astral.sh/uv/) instead of the much more common conda package manager. Conda and the conda-forge community package repository is the standard tool in scientific computing, and you're welcome to keep using it – but you should also try out uv. For heavy scientific packages with many non-Python dependencies, conda may still be the way to go. For the packages we will use in this course, uv works like a charm.
 
-do `uv sync`
+uv works with "projects": A project is a folder with a `pyproject.toml` file describing the project, including its dependencies, and a virtual environment in the hidden `.venv` folder.  Follow these steps in your terminal to initiate a new environment that you can use for your work in the first days of the course. Python, as well as most of the necessary packages will already be installed.
 
-do `uv run python -m ipykernel install --user --name "sciqis" --display-name "Python (sciqis)"`
-
-test: `uv run jupyter lab`
+1. Copy `pyproject.toml` from the cloned `sciqis` repository to a new folder (or [download](https://github.com/neago/sciqis/blob/2025/pyproject.toml) directly).
+2. From within the folder, run `uv sync`. This will create a virtual environment and install all the packages.
+3. Run `uv run python -m ipykernel install --user --name "sciqis" --display-name "Python (sciqis)"`. This will install a Jupyter kernel from this environment into your global Jupyter installation.
+4. Test that you can open Jupyter Lab and create a new notebook running on the "Python (sciqis)" kernel: `uv run jupyter lab`
 
