@@ -29,9 +29,10 @@ Tool: [Git Credential Manager](https://github.com/git-ecosystem/git-credential-m
 
 Docs: [uv official documentation](https://docs.astral.sh/uv/)
 
-Tutorial: [Getting Started With uv, the Python Package & Project Manager](https://osc.garden/notes/uv/#syncing-the-environment)
-
 Tutorial: [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
+
+
+Tutorial: [Getting Started With uv, the Python Package & Project Manager](https://osc.garden/notes/uv/#syncing-the-environment) - note that a few commands may be outdated
 
 Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd37f24b441b128b4)
 
