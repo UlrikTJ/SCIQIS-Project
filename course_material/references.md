@@ -14,7 +14,9 @@ Reference: [Git Cheatsheet (interactive)](https://ndpsoftware.com/git-cheatsheet
 
 Reference: [Basic Git Cheatsheet (PDF)](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
 
-Tutorial: [At typical workflow with git branching](https://ipython-books.github.io/24-a-typical-workflow-with-git-branching/)
+Tutorial: [W3Schools Git tutorial](https://www.w3schools.com/git/default.asp?remote=github) - in-depth, pedagogical
+
+Tutorial: [At typical workflow with git branching](https://ipython-books.github.io/24-a-typical-workflow-with-git-branching/) - brief, to-the-point tutorial on a basic workflow
 
 Tool: [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager)
 
@@ -32,7 +34,7 @@ Tutorial: [Managing Python Projects With uv: An All-in-One Solution](https://rea
 Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd37f24b441b128b4)
 
 
-### conda
+### conda (we don't use here)
 
 * [conda.org](https://conda.org/community)
 	* [Getting started with conda — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
