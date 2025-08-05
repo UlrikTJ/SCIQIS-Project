@@ -1,3 +1,5 @@
+# SCIQIS activities 02
+
 ## NumPy basics and not-so-basics
 
 1. Work your way through the `Numpy arrays.ipynb` notebook in the tutorials folder. In places where I didn't explicitly write what I wanted to show (because it was initially intended to be shown in class), try to think about what I intended to illustrate.

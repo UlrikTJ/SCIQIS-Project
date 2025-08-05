@@ -40,11 +40,10 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 ### conda (we don't use here)
 
 * [conda.org](https://conda.org/community)
-	* [Getting started with conda — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
-	* [Managing environments — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-	* [Cheatsheet — conda 24.7.2.dev18 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html).
-* [conda-forge | community-driven packaging for conda](https://conda-forge.org)
-* [Mamba User Guide — documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
+	* [Getting started with conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+	* [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+	* [Cheatsheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+* [Mamba User Guide](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 
 
 ## NumPy
