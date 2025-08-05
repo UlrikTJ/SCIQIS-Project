@@ -64,3 +64,10 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 ## Python packaging
 
 Tutorial: [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
+
+
+## Quantum information
+
+* Lecture notes: [Introduction to Quantum Information Science (Scott Aaronson)](https://www.scottaaronson.com/qclec.pdf) - introductory level
+* Lecture notes: [Introduction to Quantum Information Science II (Scott Aaronson)](https://www.scottaaronson.com/qisii.pdf) - more advanced topics
+* Lecture notes: [Basics of quantum information (IBM / John Watrous)](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information) - more rigourous and with videos
