@@ -47,6 +47,13 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 * [Mamba User Guide — documentation](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 
 
+## NumPy
+
+* Tutorial: [NumPy Illustrated: The Visual Guide to NumPy (Lev Maximov)](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b) - very pedagogial intro to the ndarray datatype
+* Tutorial: [From Python to Numpy (Nicolas P. Rougier)](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) - relatively advanced tutorial with entertaining examples
+* Exercises: [100 numpy exercises (Nicolas P. Rougier)](https://github.com/rougier/numpy-100)
+
+
 ## Visualisation
 
 ### matplotlib
