@@ -57,7 +57,10 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 
 ### matplotlib
 
+* Docs: [Quick start guide](https://matplotlib.org/stable/users/explain/quick_start.html) - a great starting point, worth reading even if you already know the basics
+* Cheatsheets: [Matplotlib cheatsheets — Visualization with Python](https://matplotlib.org/cheatsheets/)
 * Book/tutorial: [Scientific Visualization: Python + Matplotlib (Nicolas Rougier)](https://inria.hal.science/hal-03427242/document) - excellent resource, including general advice on graphic design
+* Inspiration: [Python Graph Gallery](https://python-graph-gallery.com/best-python-chart-examples/) - beautiful graphs (mostly infographics) with detailed instructions for reproduction
 
 
 ## Python packaging
