@@ -4,6 +4,13 @@ For the project work, you are quite free to choose topics of physics and scienti
 
 I encourage you to come up with your own ideas, but you are also welcome to pick from the list of potential projects below, or simply get inspiration from them. Do discuss your idea with me before committing to it.
 
+## Paper reproduction
+
+If you can find an interesting journal article on a subject that interests you which has a clearly defined theoretical model and – ideally – open data, you could try to reproduce the findings of that paper. More than that, you could explore the model further, to look for potential or limitations of the system explored in the paper.
+
+One example could be the [numerical study of random circuits by Sim et al.]() that we covered in the course. If you are up for a massive data set, you could attempt our own recent [Quantum learning advantage on a scalable photonic platform](https://arxiv.org/abs/2502.07770) with data [here](https://doi.org/10.11583/DTU.29517107.v1). Another interesting QPIT paper with data available are [Deterministic generation of a two-dimensional cluster state](https://doi.org/10.1126/science.aay4354) with data [here](https://doi.org/10.11583/DTU.8647211.v1). But you're more than welcome to dig up papers yourself.
+
+
 ## Homodyne tomography
 
 With homodyne detection of many identical copies of a quantum state, it is possible to reconstruct the Wigner function and density matrix.
