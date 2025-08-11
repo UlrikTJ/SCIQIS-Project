@@ -7,7 +7,8 @@ In this exercise you will get exposure to a few methods often encountered when p
 * handling proprietary data formats
 * visually inspecting data to understand what they tell
 * "massaging" data to bring out the features you're looking for (in a rigorous, responsible way, of course)
-* doing spectral analysis
+* doing spectral analysis of time-series data
+* curve-fitting
 
 
 1. Download data from [this Dropbox link](https://www.dropbox.com/scl/fo/1dxu97vp9f7vioe9atj7g/AOiqbbVhRn-iOqWwHyzwkZQ?rlkey=qpuxehyvenzmyl7747byxnu15&dl=0) and put them somewhere near your sciqis environment (probably best not to put it inside the git repository itself). These are (partial) data from the papers [Compact, low-threshold squeezed light source](https://opg.optica.org/abstract.cfm?uri=oe-27-26-37877) by Jens Arnbak et al., and [Distributed quantum sensing in a continuous-variable entangled network](https://www.nature.com/articles/s41567-019-0743-x) by Xueshi Guo et al. (the full dataset for the latter paper is on [DTU Data](https://doi.org/10.11583/DTU.9988805.v1)).
