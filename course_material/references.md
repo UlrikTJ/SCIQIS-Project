@@ -65,6 +65,7 @@ Reference: [uv cheatsheet](https://gist.github.com/gwangjinkim/70b353e63492e2bdd
 
 ## Python packaging
 
+* Tutorial: [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
 * Tutorial: [Packaging Python Projects - Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/#choosing-build-backend)
 * Tutorial: [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
 * Docs: [Building a package with uv](https://docs.astral.sh/uv/guides/package/)
