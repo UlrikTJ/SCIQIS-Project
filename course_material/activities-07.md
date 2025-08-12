@@ -2,7 +2,7 @@
 
 ## Gaussian state notebook peer feedback
 
-In groups of 3, review each other's notebooks from the [activities-04](./activities-04.md) exercise on Gaussian states.
+In groups of 3, review each other's notebooks from the [activities-04](./activities-04.md) exercise on Gaussian states. I uploaded them on [#gaussian-states-notebook](https://discord.com/channels/1397692599908700241/1403002651574272140)
 
 Spend ~10 minutes reading the notebook of each of the other group members. After reading both, take turns at giving **constructive** feedback to each other.
 
