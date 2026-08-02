@@ -37,9 +37,9 @@ The rest of the time you're free to work from where you like. I will be in class
 | ---- | ------------ | ---------------------- | -------------- |
 | 13/8 | 09:15        | -                      | TBD            |
 | 14/8 | 09:15        | -                      | TBD            |
-| 17/8 | 09:15        | 14:00                  | TBD            |
-| 18/8 | 09:15        | 13:00                  | TBD            |
-| 19/8 | 09:15        | 14:00                  | TBD            |
+| 17/8 | 09:15        | TBD                    | TBD            |
+| 18/8 | 09:15        | TBD                    | TBD            |
+| 19/8 | 09:15        | TBD                    | TBD            |
 
 The schedule for the project presentations and peer feedback on the last two days is subject to change, but this is the rough plan:
 
