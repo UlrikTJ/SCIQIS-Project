@@ -53,17 +53,19 @@ If you prefer HTTPS instead, use a personal access token rather than your GitHub
 
 ## Say hi
 
-Join the Discord server for the course using [this link](https://discord.gg/HVmxKyZg), and say Hi in the #welcome channel. Here, you should also provide your Github username, as we will use this for the project.
+Join the Discord server for the course using [this link](https://discord.gg/6KjNBXyYy), and say Hi in the #welcome channel. Here, you should also provide your Github username, as we will use this for the project.
 
-Feel free to [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames) on the server to make you recognisable in class.
+Please [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames) on the server to make you recognisable in class.
 
 ## Clone the sciqis course repository
 
-Most of the course material (including this file) is made available on the course's Github repository at https://github.com/neago/sciqis. It will be continually updated during the course, and the simplest way to make sure you always have the latest files is to clone the repo to your local machine,
+Most of the course material (including this file) is made available on the course's Github repository at https://github.com/qpit/sciqis. It will be continually updated during the course, and the simplest way to make sure you always have the latest files is to clone the repo to your local machine,
 
 ```
-$ git clone git@github.com:neago/sciqis.git
+$ git clone git@github.com:qpit/sciqis.git
 ```
+
+(or `git clone https://github.com/qpit/sciqis.git` if you authenticated with HTTPS)
 
 and keep it updated by pulling/syncing regularly:
 
@@ -74,18 +76,21 @@ $ git pull
 You may wish to work directly in the provided .ipynb notebooks. However, if you do that directly in your cloned repository, you will encounter merge conflicts next time you attempt a pull. The easiest way to avoid that is to create a copy of the notebooks for editing, either in the same repository or in a separate folder. 
 
 > [!TIP] 
-> If you wish to keep your own edits under version control, you could instead fork the repository and keep it synced to the upstream repo (i.e. `github.com/neago/sciqis`). See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) and [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
+> If you wish to keep your own edits under version control, you could instead fork the repository and keep it synced to the upstream repo (i.e. `github.com/qpit/sciqis`). See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) and [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
 
 
 ## Create virtual environment
 
 It is a very good idea to keep separate environments for separate projects. Virtual environments keep projects isolated, minimal and reproducible.
 
- In this course, we will use the rather new [uv package manager](https://docs.astral.sh/uv/) instead of the much more common conda package manager. Conda and the conda-forge community package repository is the standard tool in scientific computing, and you're welcome to keep using it – but you should also try out uv. For heavy scientific packages with many non-Python dependencies, conda may still be the way to go. For the packages we will use in this course, uv works like a charm.
+In this course, we will use the [uv package manager](https://docs.astral.sh/uv/) instead of the more common (at least within science) [Conda](https://conda.org) package manager. Conda and the [conda-forge](https://conda-forge.org) community package repository is the standard tool in scientific computing, and you're welcome to keep using it – but you should also try out uv. For heavy scientific packages with many non-Python dependencies, conda may still be the way to go. For the packages we will use in this course, uv works like a charm.
+
+> [!TIP]
+> I believe the best way to install Conda is through [Miniforge](https://github.com/conda-forge/miniforge). Also, [Mamba](https://github.com/mamba-org/mamba) is a faster drop-in replacement for conda.
 
 uv works with "projects": A project is a folder with a `pyproject.toml` file describing the project, including its dependencies, and a virtual environment in the hidden `.venv` folder.  Follow these steps in your terminal to initiate a new environment that you can use for your work in the first days of the course. Python, as well as most of the necessary packages will already be installed.
 
-1. Copy `pyproject.toml` from the cloned `sciqis` repository to a new folder (or [download](https://github.com/neago/sciqis/blob/2025/pyproject.toml) directly).
+1. Copy `pyproject.toml` from the cloned `sciqis` repository to a new folder (or [download](https://github.com/qpit/sciqis/blob/2026/pyproject.toml) directly).
 2. From within the folder, run `uv sync`. This will create a virtual environment and install all the packages.
 3. Run `uv run python -m ipykernel install --user --name "sciqis" --display-name "Python (sciqis)"`. This will install a Jupyter kernel from this environment into your global Jupyter installation.
 4. Test that you can open Jupyter Lab and create a new notebook running on the "Python (sciqis)" kernel: `uv run jupyter lab`
