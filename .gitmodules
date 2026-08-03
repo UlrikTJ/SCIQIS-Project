@@ -1,0 +1,4 @@
+[submodule "sciqis"]
+	path = sciqis
+	url = https://github.com/qpit/sciqis.git
+	branch = 2026
